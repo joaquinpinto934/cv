@@ -55,13 +55,12 @@ aside.datos{
     float: right;
     border: 2px solid #585760;
     border-radius: 12px;
-    padding: 30px;
+    padding: 20px 10px;
     margin:0px 0px 0px 0px; 
     color: black;
     font-style: italic;
     font-weight: bold;
     font-variant: normal;
-
 }
 
 h3.tit{
