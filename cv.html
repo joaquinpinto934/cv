@@ -30,26 +30,59 @@
 
     <aside id="skills">
         <h2 class="tit">Habilidades soft</h2>
-        <li>Responsabilidad </li> 
-        <li> Trabajo en equipo</li> 
-        <li> Autodidacta </li>
+        <p>Responsabilidad
+             <i class="fa-regular fa-paperclip"></i>
+            </p> 
+        <p> Trabajo en equipo
+            <i class="fa-sharp fa-solid fa-users"></i>
+        </p> 
+        <p> Autodidacta
+            <i class="fa-regular fa-user-check"></i>
+        </p>
     </aside>
 
     <div class="img_medio">
-        <img src="48.jpg" alt="Mi_imagen">
+        <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="48.jpg" alt="Imagen personal" width="150" height="150">
+        <script>
+            function bigImg(x) {
+              x.style.height = "300px";
+              x.style.width = "300px";
+            }
+            
+            function normalImg(x) {
+              x.style.height = "150px";
+              x.style.width = "150px";
+            }
+            </script>
+
     </div>
 
-   <section>
-    <h2 class="tit">Formacion Profesional</h2>
-    <li>Curso fundamentos programación - Argentina Programa</li>
-    <li>Curso desarrollo front-end - Argentina Programa</li>
-    <h2 class="tit">Experiencia Laboral</h2>
-    <li>Desarrollador trainee - enero 2022 / presente</li>
-    <li>Desarrollador independiente - enero 2021 / enero 2022</li>
-    <h2 class="tit">Otros conocimientos</h2>
-    <li>Curso de microsoft office</li>
-    <li>Curso de liquidacion de haberes</li>
-   </section>
+    <section>
+        <h2 class="tit">Formacion Profesional</h2>
+        <li class="dropdown">Curso fundamentos programación - Argentina Programa
+          <div class="dropdown-content">
+      <p>Javascript; Ruby</p>
+      </div></li>
+        <li class="dropdown">Curso desarrollo front-end - Argentina Programa
+          <div class="dropdown-content">
+      <p>HTML; CSS; Javascript</p>
+      </div></li>
+        <h2 class="tit">Experiencia Laboral</h2>
+        <li>Desarrollador trainee - enero 2022 / presente</li>
+        <li>Desarrollador independiente - enero 2021 / enero 2022</li>
+        <h2 class="tit">Otros conocimientos</h2>
+        <li class="dropdown">Curso de microsoft office
+            <div class="dropdown-content">
+                <p>Microsoft Word; Microsoft Excel; Microsoft PowerPoint</p>
+                </div>
+        </li>
+        <li class="dropdown">Curso de liquidacion de haberes
+            <div class="dropdown-content">
+                <p>Certificación UBA</p>
+                </div>
+        </li>
+        <li>Ingles nivel intermedio</li>
+       </section>
 
    
    <footer>
